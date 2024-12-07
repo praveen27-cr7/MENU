@@ -1,0 +1,91 @@
+
+body{
+    padding: 20px;
+    background-image: url(img/bg\ img.jpeg);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+#container{
+    background-color: rgba(211, 35, 35, 0.919);
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    border-radius: 40px;
+    text-align: center;
+    border: 6px black solid;
+    
+}
+
+h1{
+    margin-top: 0px;
+    margin-bottom: 15px;
+     font-size: 40px;
+}
+
+h1 , h2 , p{
+    
+    text-align: center;
+}
+h2{
+    font-size: 30px;
+}
+
+.est{
+    font-style: italic;
+}
+
+hr{
+    height: 3px;
+    border-color: rgb(198, 118, 13);
+    background-color: rgb(198, 118, 13);
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.item p{
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: auto;
+    font-size: 18px;
+}
+
+.burger , .pizza , .fries , .drinks , .ice , .dessert{
+    text-align: left;
+    width: 75%;
+}
+
+.price{
+    text-align: right;
+    width: 255;
+}
+
+.bottom-line{
+    margin-top: 25px;
+}
+
+footer{
+ font-size: 14px;
+}
+
+a{
+    color: black;
+    
+}
+
+a:visited{
+    color: rgb(41, 94, 12);
+}
+
+a:hover , a:focus{
+    color: rgb(38, 38, 157);
+    background-color: goldenrod;
+}
+
+a:active{
+    color: papayawhip;
+}
